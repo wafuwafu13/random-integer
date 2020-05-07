@@ -1,0 +1,36 @@
+{
+  "name": "random-integer",
+  "version": "1.0.0",
+  "description": "generate a random integer in a range",
+  "main": "index.js",
+  "jest": {
+    "verbose": true,
+    "transformIgnorePatterns": ["node_modules"]
+  },
+  "scripts": {
+    "test": "NODE_ENV=test jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wafuwafu13/random-integer.git"
+  },
+  "keywords": [
+    "random",
+    "integer",
+    "range",
+    "number"
+  ],
+  "author": "Tagawa Hirotaka <mariobaske@i.softbank.jp> (https://tagawa.netlify.app/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wafuwafu13/random-integer/issues"
+  },
+  "homepage": "https://github.com/wafuwafu13/random-integer#readme",
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "babel-jest": "^26.0.1",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
+    "jest": "^26.0.1"
+  }
+}
