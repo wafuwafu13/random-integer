@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/wafuwafu13/random-multiple-integers.svg?branch=master)](https://travis-ci.org/wafuwafu13/random-multiple-integers)
 
-This is a program for generating an array containing random multiple integers with a specified range
+This is a program for creating an array containing multiple random integers by specifying the range and number
 
 ## Use examples
 
