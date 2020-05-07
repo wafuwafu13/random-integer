@@ -19,7 +19,7 @@ let ri = new RandomInteger()
 // ri.create(min, max, count)
 console.log(ri.create(1, 10, 10));  // -> [9, 4, 2, 6, 6, 2, 5, 1, 8, 10]
 console.log(ri.create(-10, 0, 10)); // -> [-6, 0, -5, -2, -6, -4, -8, -3, -10, -9]
-console.log(ri.create(1, 1, 1));   // -> [1]
+console.log(ri.create(1, 1, 1));    // -> [1]
 ```
 
 # Testing
