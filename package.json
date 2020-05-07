@@ -1,5 +1,5 @@
 {
-  "name": "random-integer",
+  "name": "random-multiple-integers",
   "version": "1.0.0",
   "description": "generate a random integer in a range",
   "main": "index.js",
