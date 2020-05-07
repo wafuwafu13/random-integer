@@ -1,8 +1,8 @@
 # random-multiple-integers
 
-[![Build Status](https://travis-ci.org/wafuwafu13/random-integer.svg?branch=master)](https://travis-ci.org/wafuwafu13/random-integer)
+[![Build Status](https://travis-ci.org/wafuwafu13/random-multiple-integers.svg?branch=master)](https://travis-ci.org/wafuwafu13/random-multiple-integers)
 
-This is a program for generating a random integer by specifying a range
+This is a program for generating an array containing multiple integers with a specified range
 
 ## Use examples
 
