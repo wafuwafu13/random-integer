@@ -1,29 +1,30 @@
-# random-integer
+# random-multiple-integers
 
-[![Build Status](https://travis-ci.org/wafuwafu13/random-integer.svg?branch=master)](https://travis-ci.org/wafuwafu13/random-integer)
+[![Build Status](https://travis-ci.org/wafuwafu13/random-multiple-integers.svg?branch=master)](https://travis-ci.org/wafuwafu13/random-multiple-integers)
 
-This is a program for generating a random integer by specifying a range
+This is a program for generating an array containing multiple integers with a specified range
 
 ## Use examples
 
 First, install this module in your project.
 ```
-$ npm install random-integer
+$ npm install random-multiple-integers
 ```
 Import this module in your source code and call like below.
 
 ```javascript
-let RandomInteger = require('random-integer')
+let RandomInteger = require('random-multiple-integers')
 let ri = new RandomInteger()
 
-console.log(ri.create(1, 10));  // -> 1 or 2 or ... or 10
-console.log(ri.create(-10, 0)); // -> -10 or -9 or ... or 0
-console.log(ri.create(1, 1));   // -> 1
+// ri.create(min, max, count)
+console.log(ri.create(1, 10, 10));  // -> [9, 4, 2, 6, 6, 2, 5, 1, 8, 10]
+console.log(ri.create(-10, 0, 10)); // -> [-6, 0, -5, -2, -6, -4, -8, -3, -10, -9]
+console.log(ri.create(1, 1, 1));    // -> [1]
 ```
 
 # Testing
 
-rpncc uses jest for testing. You can run test cases by installing dependencies then run "npm test" command.
+random-multiple-integers uses jest for testing. You can run test cases by installing dependencies then run "npm test" command.
 ```
 $ npm install
 $ npm test
