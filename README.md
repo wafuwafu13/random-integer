@@ -24,7 +24,7 @@ console.log(ri.create(1, 1, 1));    // -> [1]
 
 # Testing
 
-rpncc uses jest for testing. You can run test cases by installing dependencies then run "npm test" command.
+random-multiple-integers uses jest for testing. You can run test cases by installing dependencies then run "npm test" command.
 ```
 $ npm install
 $ npm test
